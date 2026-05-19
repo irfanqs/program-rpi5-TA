@@ -1,0 +1,28 @@
+# Core
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# YOLO (Ultralytics mendukung v8, v9, v10, v11)
+ultralytics>=8.3.0
+
+# Untuk export NCNN (opsional, jalankan di Pi cukup ncnn-python)
+onnx>=1.14.0
+onnxruntime>=1.16.0
+
+# Sensor VL53L0X (I2C via Adafruit Blinka)
+adafruit-blinka>=8.20.0
+adafruit-circuitpython-vl53l0x>=3.6.0
+smbus2>=0.4.2
+
+# GPIO (Pi 5 pakai lgpio backend via gpiozero)
+gpiozero>=2.0
+lgpio>=0.2.2.0
+RPi.GPIO>=0.7.1; platform_machine != "x86_64"
+
+# Pi Camera (libcamera based)
+picamera2>=0.3.17; platform_machine != "x86_64"
+
+# Utilities
+pandas>=2.0.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
